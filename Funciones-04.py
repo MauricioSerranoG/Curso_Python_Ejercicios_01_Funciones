@@ -6,8 +6,8 @@ Pista: El número intermedio de dos números corresponde a la suma de los dos n�
 """
 
 
-n1 = 2
-n2 = 8
+n1 = -12
+n2 = 24
 inter = 0
 def intermedio(a, b):
     inter = (n1 +n2)/2
@@ -15,3 +15,7 @@ def intermedio(a, b):
 
 
 print(f"El numero intermedio de los numeros {n1} y {n2}, es: ", intermedio(n1, n2)) 
+
+n1 = int(input("Ingresa numero 1: "))
+n2 = int(input("Ingresa numero 2: "))
+print(f"El numero intermedio entre {n1} y {n2}, es: ", intermedio(n1, n2)) 
